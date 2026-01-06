@@ -1,5 +1,8 @@
 # 微前端框架验证工具
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/JustinBIBERRR/pangu-micro-app-demo)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://justinbiberrr.github.io/pangu-micro-app-demo/)
+
 这是一个用于验证外部JS资源对微前端框架影响的快速原型工具。
 
 ## 功能特性
@@ -135,6 +138,35 @@ curl http://localhost:8080
 - 此设置仅用于开发测试
 - 生产环境请使用适当的安全措施
 - 避免在公共网络中运行此类服务器
+
+## 🌐 在线访问
+
+### GitHub Pages
+项目已部署到GitHub Pages，您可以通过以下地址在线访问：
+```
+https://justinbiberrr.github.io/pangu-micro-app-demo/
+```
+
+### 本地运行
+如果要在本地运行：
+
+```bash
+# 安装依赖
+npm install -g http-server
+
+# 启动服务器
+npx http-server -p 8080
+
+# 访问
+http://localhost:8080
+```
+
+## 📊 项目统计
+
+- **文件数量**: 27个
+- **代码行数**: ~1800行
+- **技术栈**: 原生JavaScript + HTML5 + CSS3
+- **架构**: 自定义Web Components + Hash路由
 
 ## 注意事项
 
